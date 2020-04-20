@@ -72,7 +72,7 @@ public class JavaDocGenerator {
         forSuffixes(asList("Controller"),
                 subject -> "A controller that provides " + subject.asSpokenName() + " relevant REST endpoints.");
         strategies.add(new UnconditionedJavaDocGenerationStrategy(
-                subject -> "com.bkahlert.idesupport.javadoc.Main entry point for " + subject.asSpokenName() + "s that allows to ",
+                subject -> "Main entry point for " + subject.asSpokenName() + "s that allows to ",
                 subject -> "Instances of this class ",
                 subject -> subject.asClassName() + " allows to ",
                 subject -> subject.asClassName() + " provides functionality to easily ",

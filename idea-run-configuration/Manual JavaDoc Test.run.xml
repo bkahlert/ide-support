@@ -1,0 +1,14 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="Manual JavaDoc Test" type="GroovyScriptRunConfiguration" factoryName="Groovy">
+    <module name="ide-support.main" />
+    <setting name="path" value="file://$PROJECT_DIR$/src/main/groovy/javadoc.groovy" />
+    <setting name="vmparams" value="" />
+    <setting name="params" value="" />
+    <setting name="workDir" value="file://$PROJECT_DIR$/src/main/groovy" />
+    <setting name="debug" value="false" />
+    <method v="2">
+      <option name="Gradle.BeforeRunTask" enabled="true" tasks="clean build" externalProjectPath="$PROJECT_DIR$" vmOptions="" scriptParameters="" />
+      <option name="Make" enabled="true" />
+    </method>
+  </configuration>
+</component>

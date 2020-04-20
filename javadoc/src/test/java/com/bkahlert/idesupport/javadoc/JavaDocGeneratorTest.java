@@ -118,12 +118,12 @@ class JavaDocGeneratorTest {
             "ControllerMyFabulous"
     })
     void should_generate_default_description_for_false_friends(String falseFriendClassName) {
-        assertThat(generator.generateDescriptionForClassName(falseFriendClassName)).hasLineCount(7).startsWith("com.bkahlert.idesupport.javadoc.Main entry point");
+        assertThat(generator.generateDescriptionForClassName(falseFriendClassName)).hasLineCount(7).startsWith("Main entry point");
     }
 
     @Test
     void should_generate_default_description() {
         assertThat(generator.generateDescriptionForClassName("MyFabulousClass")).hasLineCount(7)
-                .contains("com.bkahlert.idesupport.javadoc.Main entry point", "Instances", "{@link MyFabulousClass}", "my fabulous class");
+                .contains("Main entry point", "Instances", "{@link MyFabulousClass}", "my fabulous class");
     }
 }
