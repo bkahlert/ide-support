@@ -1,0 +1,21 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="JavaDocGeneratorTest" type="JUnit" factoryName="JUnit" nameIsGenerated="true">
+    <module name="ide-support.javadoc.test" />
+    <useClassPathOnly />
+    <extension name="coverage">
+      <pattern>
+        <option name="PATTERN" value="com.bkahlert.idesupport.javadoc.*" />
+        <option name="ENABLED" value="true" />
+      </pattern>
+    </extension>
+    <option name="PACKAGE_NAME" value="com.bkahlert.idesupport.javadoc" />
+    <option name="MAIN_CLASS_NAME" value="com.bkahlert.idesupport.javadoc.JavaDocGeneratorTest" />
+    <option name="METHOD_NAME" value="" />
+    <option name="TEST_OBJECT" value="class" />
+    <option name="PARAMETERS" value="" />
+    <method v="2">
+      <option name="Make" enabled="true" />
+      <option name="BSP.BeforeRunTask" enabled="true" />
+    </method>
+  </configuration>
+</component>
